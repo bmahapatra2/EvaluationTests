@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Pizza
 {
-    class Program
+    class Console
     {
-        static void Main(string[] args)
-        {
-        }
+       
+            static void Main(string[] args)
+            {
+            }
+        
     }
 }

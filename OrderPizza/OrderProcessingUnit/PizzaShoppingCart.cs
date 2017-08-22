@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PizzaEntity;
+using PizzaOrderContract;
 
-namespace Pizza
+namespace OrderProcessingUnit
 {
     public class PizzaShoppingCart
 
@@ -13,9 +15,9 @@ namespace Pizza
 
         VegeterianPizza vegpizza = new VegeterianPizza();
 
-        public List<Pizza> TotalOrderedPizza = new List<Pizza>();
+        public List<Pizzaa> TotalOrderedPizza = new List<Pizzaa>();
 
-        Pizza pizza = new Pizza();
+    
 
         public int AddedPizzaToCart()
        {
@@ -25,10 +27,24 @@ namespace Pizza
             return TotalOrderedPizza.Count();
        }
        
-        public List<Pizza> PizzaDetails()
+        public List<Pizzaa> PizzaDetails()
         {
             AddedPizzaToCart();
             return TotalOrderedPizza;
+        }
+
+        public bool ValidationOnOrder()
+
+        { 
+            
+            if ( AddedPizzaToCart()>=2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         

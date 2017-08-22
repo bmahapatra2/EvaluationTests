@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pizza
+namespace ConsoleExcluded
 {
-    interface IPizzaVarietyContract
+    class Program
     {
-        List<Pizza> AvailablePizza();
+        static void Main(string[] args)
+        {
+        }
     }
 }

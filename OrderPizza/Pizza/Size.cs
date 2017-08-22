@@ -1,14 +1,11 @@
-﻿namespace Pizza
+﻿namespace PizzaEntity
 {
     public class Size
     {
         public string Shape { get; set; }
 
-        public int Prize { get; set; }
+        public int Price { get; set; }
 
-        public Size()
-        {
-            new Size();
-        }
+       
     }
 }

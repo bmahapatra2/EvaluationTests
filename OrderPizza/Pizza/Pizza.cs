@@ -1,20 +1,18 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pizza
+
+namespace PizzaEntity
 {
-    public class Pizza
+    public class Pizzaa
     {
         public string PizzaName { get; set; }
 
         public Size Size { get; set; }
 
-        public Pizza()
-        {
-            new Size();
-        }
+        
     }
 }

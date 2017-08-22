@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2F13F188-27D4-4393-BF4A-732A2C0416EB}</ProjectGuid>
+    <ProjectGuid>{0B0A6E23-7179-48E2-ADDE-222F362A9265}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pizza</RootNamespace>
-    <AssemblyName>Pizza</AssemblyName>
+    <RootNamespace>ConsoleExcluded</RootNamespace>
+    <AssemblyName>ConsoleExcluded</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Console.cs" />
-    <Compile Include="Pizza.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Size.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza", "Pizza\Pizza.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaCheck", "PizzaCheck\PizzaCheck.csproj", "{C0A95958-92BF-4928-9768-D1D8CD9597F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOrderContract", "ClassLibrary1\PizzaOrderContract.csproj", "{80E52A9E-773C-41BB-AA72-516A96BD0E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingUnit", "OrderProcessingUnit\OrderProcessingUnit.csproj", "{746AA389-B3CC-4161-85DE-AE722F464C2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C0A95958-92BF-4928-9768-D1D8CD9597F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A95958-92BF-4928-9768-D1D8CD9597F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A95958-92BF-4928-9768-D1D8CD9597F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E52A9E-773C-41BB-AA72-516A96BD0E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E52A9E-773C-41BB-AA72-516A96BD0E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E52A9E-773C-41BB-AA72-516A96BD0E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E52A9E-773C-41BB-AA72-516A96BD0E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746AA389-B3CC-4161-85DE-AE722F464C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746AA389-B3CC-4161-85DE-AE722F464C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746AA389-B3CC-4161-85DE-AE722F464C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746AA389-B3CC-4161-85DE-AE722F464C2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

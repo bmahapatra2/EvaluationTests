@@ -55,6 +55,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\PizzaOrderContract.csproj">
+      <Project>{80e52a9e-773c-41bb-aa72-516a96bd0e33}</Project>
+      <Name>PizzaOrderContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OrderProcessingUnit\OrderProcessingUnit.csproj">
+      <Project>{746aa389-b3cc-4161-85de-ae722f464c2b}</Project>
+      <Name>OrderProcessingUnit</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Pizza\Pizza.csproj">
       <Project>{2f13f188-27d4-4393-bf4a-732a2c0416eb}</Project>
       <Name>Pizza</Name>
